@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HORARIO</title>
+</head>
+<body>
+	<table border="1">
+		<thead>
+		<tr>
+			<th></th>
+			<th >MATERIAS</th>
+			<th >LUNES</th>
+			<th >MARTES</th>
+			<th >MIERCOLES</th>
+            <th >JUEVES</th>
+            <th >VIERNES</th>
+		</tr>
+	    </thead>
+	    <tbody>
+	    	<tr>
+	    		<th>Lenguajes y Automatas II</th>
+	    		<td></td>
+	    		<td>08:00-10:00/AUDII</td>
+	    		<td></td>
+	    		<td>08:00-10:00/AUDII</td>
+	    		<td>09:00-10:00/AUDII</td>
+	    	</tr>
+	    	<tr>
+	    		<th>conm. y Enrut. de Red De Dato</th>
+	    		<td>10:00-12:00/AUDII</td>
+	    		<td></td>
+	    		<td>10:00-12:00/AUDII</td>
+	    		<td></td>
+	    		<td>10:00-12:00/AUDII</td>
+	    	</tr>
+	    	<tr>
+	    		<th>Taller de Investigación l</th>
+	    		<td></td>
+	    		<td>10:00-12:00/AUDII</td>
+	    		<td></td>
+	    		<td>10:00-12:00/AUDII</td>
+
+	    	</tr>
+	    	<tr>
+	    		<th>Programación Web</th>
+	    		<td></td>
+	    		<td>12:00-14:00/LAB A1</td>
+	    		<td></td>
+	    		<td>12:00-14:00/LAB A1</td>
+	    		<td>13:00-14:00/LAB A1</td>
+	    	</tr>
+	    	<tr>
+	    		<th>Gest. Proy. De Software</th>
+	    		<td>12:00-14:00/LAB A2</td>
+	    		<td></td>
+	    		<td>12:00-14:00/LAB A2</td>
+	    		<td></td>
+	    		<td>12:00-13:00/LAB A2</td>
+	    	</tr>
+	    	<tr>
+	    		<th>Lenguajes de Interfaz</th>
+	    		<td>08:00-10:00/LAB A4</td>
+	    		<td></td>
+	    		<td>08:00-10:00/LAB A4</td>
+	    		<td></td>
+	    		<td></td>
+	    	</tr>
+	    </tbody>
+	</table>
+</body>
+</html>
