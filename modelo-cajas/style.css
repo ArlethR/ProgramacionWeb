@@ -1,0 +1,79 @@
+/*Fondo de pagina*/
+*{background-color: lavender;}
+/*Estilo de titulo*/
+body{
+	width: 850px;
+	margin-left: 12em;
+	background-color: lightcoral;
+	padding: 0 50px 20px 50px;
+	border:15px double blueviolet;
+}
+.principal{
+	background-color: lightcoral;
+}
+.contenido :first-of-type{background-color: lightcoral;}
+#titulo {
+	color: darkmagenta;
+	font-family: 42px,'Comic Sons Ms',bold,cursive;
+	text-align: center;	
+	background-color: lightcoral;
+}
+section{
+	background-color: lightcoral;
+	font-family: 
+}
+a,li,p,ul{
+	background-color: lightcoral;
+	font-family: Arial,helvetica,sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: 1px;}
+a:link{color: blue;}
+a:visited{color: rgb(51,0,0);}
+a:hover{background: rgb(153,153,153);}
+a:active{color: lime;}
+h2{
+font-family: 42px,'Comic Sons Ms',bold,cursive;
+color: rgb(0,0,51);
+text-align: center;	
+}
+h3{
+	font-family:'Comic Sons Ms',bold,cursive;
+color: midnightblue;
+text-align: center;	
+}
+figure{
+	background-color: lightcoral;
+	font-family: Arial,helvetica,sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+
+/*#indice, .fondo,p,ul,li,a{
+	font-family: 'Lucida Sans Unicode',sans-serif;
+	background-color: lightcoral;
+}
+figure:first-of-type{background-color: lightcoral;}
+.intro{
+	background-color: lightcoral;
+	}
+a:link{color: blue}
+a:visited{color: rgb(51,0,0);}
+a:hover{background: rgb(153,153,153);}
+a:active{color: lime;}
+.contenido{background-color: lightcoral;
+}
+
+
+
+
+/*nav{
+	font-family: 'Lucida Sans Unicode',sans-serif;
+	position: absolute;
+	left: 0px;
+	width: 200px;
+	margin: 1em;
+}

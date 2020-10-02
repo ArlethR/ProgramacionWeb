@@ -1,0 +1,23 @@
+/* Todos los elementos de la pagina */
+*{ font: 1em/1.5 Arial, Helvetica, sans-serif; }
+/*enlace en la pagina*/
+#enlaces p{font-size: 1em; text-align: center;}
+/*un elemento de título que deba ser verde y en negrita*/
+.green{color: green; font-weight: bold;}
+/* enlaces activos*/
+a:active {color: lime;}
+/*El usuario esta sobre el ennlace*/
+a:hover {background: yellow;}
+/*Enlaces visitados*/
+a:visited {color: purple;}
+/*Enlaces no visitados*/
+a:link {color: blue;}
+/*---------------:checked--------------------------*/
+/*Etiquetas para entradas marcadas */
+input:checked + label{ color: red;}
+/*---------------:default--------------------------*/
+ input:default {
+ box-shadow: 0 0 2px 1px coral;}
+ /*--------------:dir------------------------*/
+ :dir(ltr){background-color: yellow;color: lime;}
+ :dir(rlt){background-color: powderblue;}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href = "./style.css" type ="text/css" rel ="stylesheet">
+	<title>Modelo de caja CSS</title>
+</head>
+<body>
+	<main class="principal">
+		<header >
+		<h1 id="titulo" >El Modelo de Caja en CSS</h1>
+	 </header>
+	 <article class="contenido">
+	 	<section id="indice">
+	 		<p>En esta página encontrarás lo siguiente:</p>
+	 		<nav class="fondo">
+	 			<ul class="lista">
+	 				<li ><a href="#definicion">Definición</a></li>
+	 				<li><a href="#partes">Partes de una caja</a></li>
+	 				<li><a href="#standard-box">Modelo estándar</a></li>
+	 				<li><a href="#alternate-box">Modelo alternativo</a></li>
+	 			</ul>
+	 		</nav>
+	 	</section>
+	 	<section class="intro">
+	 		<p >En CSS, cada elemento está rodeado por una caja. Ser capas de entender cómo funcionan estas cajas es una parte esencial de colocar los elementos de la forma que usted desea en una página web. <br> El modelo de caja CSS se utiliza para determinar cómo debe aparecer un cuadro y cómo debe colocarse en una página web.</p>
+	 		<figure>
+	 			<img src="box-model.jpg" width = "320" height = "240">
+	 			<figcaption><em>Representación tridimencional del box model de CSS</em></figcaption>
+	 		</figure>
+	 	</section>
+	 	<section id="definicion">
+	 	<h2>¿Qué es el modelo de cajas CSS?</h2>
+	 	<p>El modelo de cajas o "box model" es seguramente la característica más importante del lenguaje de hojas de estilos CSS, ya que condiciona el diseño de todas las páginas web. El modelo de cajas es el comportamiento de CSS que hace que todos los elementos de las páginas se representen mediante cajas rectangulares.
+        <br>Las cajas de una página se crean automáticamente. Cada vez que se inserta una etiqueta HTML, se crea una nueva caja rectangular que encierra los contenidos de ese elemento. La siguiente imagen muestra las tres cajas rectangulares que crean las tres etiquetas HTML que incluye la página:</p>
+        <figure>
+        	<img src="ejemploBox.gif"  >
+        	<figcaption><em>Las cajas se crean automáticamente al definir cada elemnto HTML</em></figcaption>
+        </figure>
+        <p>
+	 	El modelo de cajas CSS completo se aplica a cajas que presentan comportamiento en bloque; las cajas con comportamiento en línea solo usan una parte del comportamiento definido en el modelo de cajas. El modelo define cómo funcionan juntas las diferentes partes de una caja (margen, borde, relleno y contenido) para crear una caja que puedas ver en tu página.</p>
+	 	</section>
+	 	<section id="partes">
+	 		<h3>Partes de una caja</h3>
+	 		<p>Al hacer una caja tipo bloque en CSS tenemos los elementos siguientes: </p>
+	 		<ul>
+	 			<li>El <strong>contenido de la caja</strong> (content box): El área donde se muestra el contenido, cuyo tamaño puede camiarse utilizando propiedades como width y height.</li>
+	 			<li>El <strong>relleno de la caja</strong> (padding box): El relleno es espacio en blanco alrededor del contenido; es posible controlar su tamaño usando la propiedad padding y otras propiedades relacionadas.</li>
+	 			<li>El<strong> borde de la caja</strong> (border box): El borde de la caja envuelve el contenido y el de relleno. Es posible controlar su tamaño y estilo utilizando la propiedad border y otras propiedades relacionadas.</li>
+	 			<li>El <strong>margen de la caja</strong> (margin box): El borde de la caja envuelve el contenido, el relleno y el borde como espacio en blanco entre la caja y otros elementos. Es posible controlar su tamaño usando la propiedad margin y otras propiedades relacionadas.</li>
+	 		</ul>
+	 		<figure>
+	 			<img src="imagen.jfif" width = "420" height = "340">
+	 			<figcaption><em>Esta imagen muestra la estructura de una caja</em></figcaption>
+	 		</figure>
+	 		
+	 		<p> En CSS, hay dos modelos de cajas: 
+	 		<ul>
+	 			<li>Modelo de cajas estándar.</li>
+	 			<li>Modelo de cajas altenativo.</li>
+	 		</ul>
+	 	    </p>
+	 	</section>
+	 	<section id="standard-box">
+	 		<h3>El modelo de cajas CSS estándar</h3>
+	 		<p>
+	 			En el modelo de cajas estándar, cuando estableces los atributos width y height para una caja, defines el ancho y el alto del contenido de la caja. cualquier área de relleno y borde se añade a ese ancho y alto para obtener el tamaño total que ocupa la caja. Esto se muestra en la imagen a continuación. 
+	 			<br>
+	 			Si suponemos que la caja tiene el CSS siguiente , que establece los valores para las propiedades width, height, margin, border y padding: 
+	 		</p>
+	 		<figure>
+	 			<img src="medidas.jpg">
+	 		</figure>
+	 	<p>
+	 		El espacio que ocupa nuestra caja usando el modelo de cajas estándar será en realidad de 410 px(350+25+25+5+5); y su altura, de 210 px (150+25+25+5+5), porque el área de relleno y el borde se añaden al ancho que se utiliza para el contenido de la caja.
+	 	</p>
+	 	<figure>
+	 			<img src="standard-box.png">
+	 		</figure>
+	 	</section>
+	 	<section id="alternate-box">
+	 		<h3>El modelo de cajas CSS alternativo</h3>
+	 		<p>
+	 			Podrías pensar que es más bien incomodo tener que sumar el borde y el área de relleno para obtener el tamaño real de la caja, ¡y tienes razón! Por este motivo, CSS introdujo un modelo de caja alternativo algún tiempo despues del modelo de cajas éstandar. Con este modelo, cualquier ancho de la caja visible en la página, por lo tanto, el ancho del área de contenido es ese ancho menos el ancho para el relleno y el borde. El mismo CSS que hemos usado antes daria entoces el resultado siguiente (ancho= 350 px, altura = 150 px)
+	 		</p>
+	 		<figure>
+	 			<img src="alternate-box.png">
+	 		</figure>
+	 		<p>
+	 			Por defecto, los navegadores usan el modelo de cajas estándar. Si deseas activar el modelo de cajas alternativo para un elemnto, hazlo configurando box-sizing: border-box. Con ello, le dices al navegador que tome como el borde de la caja el área definida por cualquier tamaño que establezcas.
+	 		</p>
+	 	</section>
+	 </article>
+	 <hr>
+	 <footer>
+	 	<p>Referencias:
+	 	<br> 
+	 		<a href="https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/El_modelo_de_caja#%C2%BFQu%C3%A9_es_el_modelo_de_cajas_CSS"
+	 		target="_blank">El modelo de caja</a>
+	 		<br>
+	 		<a href="https://uniwebsidad.com/libros/css/capitulo-4" target="_blank">Capítulo 4. Modelo de cajas </a>
+	 	</p>
+	 </footer>
+	</main>
+	 
+</body>
+</html>
