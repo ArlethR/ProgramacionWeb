@@ -1,0 +1,73 @@
+html{background-color: rgb(102,0,0);}
+body{
+	width: auto;
+	height: auto;
+	background:  rgb(204,204,204);
+	border:5px double rgb(204,0,0);
+}
+h1{
+	font-family: Arial,helvetica,sans-serif;
+	margin: 20px;
+	padding-left: 120px;
+	/*RGBA(RED, GREEN, BLUE, ALPHA)
+	El parámetro alfa es un número entre 0.0
+	 (totalmente transparente) y 1.0
+	  (no transparente en absoluto)*/
+	color: rgba(0,0,255,0.5);
+	font-size: 60px;
+	text-shadow: red 0 -5px; 
+	text-align: center;
+	}
+	h2{text-shadow: 2px 2px 8px #008B8B;
+		font-family: 'Zapf-Chancery', cursive;
+		text-align: center;
+	}
+	article{
+font-family: 'Courier New', Monaco,Monospace;
+font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	}
+	figure{
+		font-family: 'Comic Sons Ms',bold,cursive;
+	font-size: 20px;
+	text-align: center;
+}
+.borde{ border-radius: 25px ; }
+.formulario{
+  font-family: 'Times New Roman',Georgia,serif;
+  background-color: rgb(102,51,51);
+  width: 300px;
+  margin: 200px;
+  border: 1px solid red; 
+  padding: 25px;
+  margin-left: 25em;
+  text-align: center;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: rgb(0,102,102);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+input[type=submit]:hover {
+  background-color: rgb(0,51,102);
+}
+.especial{
+	color: red;
+}
+a:link{color: blue;}
+a:visited{color: rgb(255,102,0);}
+a:hover{background: rgb(153,153,153);}
