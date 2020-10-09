@@ -75,7 +75,7 @@ li{
 }
 li:hover{
 	background: hsl(171, 42%, 59%);
-	color:black;
+	color:rgb(0,128,128);
 }
 
 h1{
