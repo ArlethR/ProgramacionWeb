@@ -9,6 +9,6 @@ function down() {
   ball.style.bottom = '50px';
 }
 
-document.addEventListener('keydown',up);
+document.addEventListener('ArrowRight',up);
 
 document.addEventListener('keyup',down);

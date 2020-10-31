@@ -2,7 +2,6 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: 'Nunito';
 }
 .portada{
  position: absolute; 
@@ -28,7 +27,6 @@ body{
 }
 header{
 	margin-top: 25%;
-
 }
 
 #btn1:hover{
@@ -42,8 +40,9 @@ header{
   border-radius: 8px;
   text-align: center;
   cursor: pointer;
+  
 }
-#btNext,#btPrev{
+#btNext,#btPrev,#btHome{
   color:black;
   text-align: center;
   cursor: pointer;
@@ -52,29 +51,33 @@ header{
 }
 p{
 	margin-top: 5%;
-	font-family: 'Amatic SC', cursive;
+  font-family: 'Srisakdi', cursive;
 	font-size: 30px;
 
 }
 #part2{
 	margin-top: 65px;
 }
-.p3{
+#p3{
 	margin-top: 0px;
 }
-.p4{
-	text-align: justify;
-}
+
 .fotos{
   width: 100%;
-  height: auto;
   opacity: 90%;
   z-index: -1;
   top: 20%;
   bottom: 0%;
   left: 0%;
 }
-@keyframes mymove {
-  from {top: 0px;}
-  to {top: 200px;}
+
+#part6{
+color: #FFFFFF;
+background-color: #333333;
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+#final{
+  font-size: 200px;
+  font-family: 'Henny Penny', cursive;
+  text-align: center;
 }
