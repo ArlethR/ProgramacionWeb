@@ -1,0 +1,80 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito';
+}
+.portada{
+ position: absolute; 
+  width: 100%;
+  height: auto;
+  opacity: 90%;
+  z-index: -1;
+  top: 20%;
+  bottom: 0%;
+  left: 0%;
+}
+
+#ti,#tu{
+	text-align: center;
+}
+#ti{
+	font-family: 'Antic Slab', serif;
+}
+#tu{
+	font-family: 'Fredericka the Great', cursive;
+    text-shadow: 4px 3px 6px rgba(255,52,0,1);
+	color:  rgba(255,52,0,1);
+}
+header{
+	margin-top: 25%;
+
+}
+
+#btn1:hover{
+	background-color:hsl(26, 100%, 50%);
+  color: white;
+}
+#btn1{
+  background-color: transparent;
+  color:black;
+  border: 2px solid hsl(26, 100%, 50%);
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+#btNext,#btPrev{
+  color:black;
+  text-align: center;
+  cursor: pointer;
+  top: 0px;
+  font-family: 'Creepster', cursive;
+}
+p{
+	margin-top: 5%;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+
+}
+#part2{
+	margin-top: 65px;
+}
+.p3{
+	margin-top: 0px;
+}
+.p4{
+	text-align: justify;
+}
+.fotos{
+  width: 100%;
+  height: auto;
+  opacity: 90%;
+  z-index: -1;
+  top: 20%;
+  bottom: 0%;
+  left: 0%;
+}
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
