@@ -1,0 +1,32 @@
+
+body{
+	background-color: rgba(134, 108, 99, 0.5);
+}
+.jumbotron{
+	background-color: rgba(134, 108, 71, 0.5);
+}
+h1 {
+font-family: font-family: 'Glegoo', serif;
+	color: rgba(111, 19, 42, 1);
+	text-align: center;
+}
+img{
+	max-width: 100%;
+	border-radius: 20px;
+	 border: 1px solid rgba(171, 154, 162, 0.5);
+}
+
+h2{
+font-family: 'Courgette', cursive;
+color: rgb(0,0,51);
+text-align: center;	}
+a,li,ul,p{
+	font-family: 'Times New Roman',serif;
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: 1px;}
+
+a:link{color: blue;}
+a:visited{color: rgb(51,0,0);}
+a:hover{background: rgb(153,153,153);}
+a:active{color: lime;}
