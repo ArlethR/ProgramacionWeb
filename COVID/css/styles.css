@@ -30,3 +30,13 @@ a:link{color: blue;}
 a:visited{color: rgb(51,0,0);}
 a:hover{background: rgb(153,153,153);}
 a:active{color: lime;}
+
+.navbar{
+	background-color: rgba(104, 57, 51, 0.5);
+}
+thead{
+	text-align: center;
+}
+.breadcrumb{
+	background-color: rgba(134, 108, 99, 0.2);
+}
