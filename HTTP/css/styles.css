@@ -1,0 +1,67 @@
+body{
+	background-color: lavenderblush;
+	//rgba(185, 241, 226, 0.2);
+}
+/*.jumbotron{
+	background-color: rgba(83, 0, 29, 0.5);
+	//rgba(156, 32, 56, 0.5);
+	text-align: center;
+}*/
+#titHeder{
+	font-family: 'Goldman', cursive;
+	background-color: rgba(83, 0, 29, 0.5);
+	//rgba(156, 32, 56, 0.5);
+	text-align: center;
+}
+#footer{
+	font-family: 'Press Start 2P', cursive;
+	background-color: lightcoral;
+	text-align: center;
+
+}
+#link{
+	background-color: rosybrown;
+	//rgba(205, 241, 226, 0.5);
+}
+#indexLetra{
+	font-size: 20px;
+}
+#indice, #ver{
+    display: none;
+    visibility: hidden;
+}
+#btnMas{
+	background-color: transparent;
+	border: transparent;
+}
+#imagen{
+	width:25px;
+    height:25px;
+}
+a,li,ul,p{
+	font-family: 'Times New Roman',serif;
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: 1px;}
+
+a:link{color: rgba(153, 194, 196, 0.8);}
+a:visited{color: rgb(51,0,0);}
+a:hover{background: rgb(153,153,153);}
+a:active{color: lime;}
+#titCara{
+	text-align: center;
+}
+h2{
+	font-family: 'Courgette', cursive;
+	text-align: center;
+}
+.cara{
+	background-color: thistle;
+}
+hr{
+background-color: crimson;
+padding-bottom: 3px;
+}
+#ref{
+	font-size: 20px;
+}
