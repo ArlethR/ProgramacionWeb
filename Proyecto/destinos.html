@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Destinos</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/styles2.css">
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+</head>
+<body class="fondoD">
+ <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+  <a class="navbar-brand" href="#">
+    <img src="./img/logo.png" class="logo" alt="">
+  Travel Paradise</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="destinos.html">Destinos</a></li>
+            <li class="nav-item">
+             <a class="nav-link " href="tips.html">Consejos</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<header class="destinos jumbotron">
+			<div class="container"><!-- container -->
+			<div class="row align-items-center"><!--Row -->
+				<div class="col-sm"><!-- columna -->
+					<h1 class="titD">Destinos</h1>
+				</div><!-- columna -->
+			</div><!-- Fin Row -->
+		</div><!--Fin container -->
+	</header>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 ">
+<button class="tablink" onclick="cambia('Europa', this, 'red')"id="defaultOpen">Europa</button>
+<button class="tablink" onclick="cambia('Asia', this, 'green')" >Asia</button>
+<button class="tablink" onclick="cambia('Africa', this, 'blue')">África</button>
+<button class="tablink" onclick="cambia('America', this, 'orange')">América</button>
+<button class="tablink" onclick="cambia('oceania', this, 'yellow')">Oceania</button>
+</div>
+</div>
+
+<div id="Europa" class="tabcontent">
+  <h3 class="pasies">Europa</h3>
+  	<ul>
+  		<li class="paises"><a href="francia.html">Francia</a></li>
+  		<li class="paises"><a href="italia.html">Italia</a></li>
+  	</ul>
+</div>
+
+<div id="Asia" class="tabcontent">
+  <h3 class="paises"><a href="asia.html">Asia</a></h3>
+  <ul>
+  		<li class="paises"><a href="dubai.html">Dubai</a></li>
+  		<li class="paises"><a href="japon.html">Japon</a></li>
+  	</ul>
+</div>
+<div id="Africa" class="tabcontent">
+  	<h3 class="paises"><a href="africa.html">África</a></h3>
+  <ul>
+  		<li class="paises"><a  href="marruecos.html">Marruecos</a></li>
+  		<li class="paises"><a  href="tanzania.html">Tanzania</a></li>
+  	</ul>
+</div>
+
+<div id="America" class="tabcontent">
+  <h3 class="paises">Tanzania</h3>
+  <ul>
+  		<li class="paises"><a  href="colombia.html">Colombia</a></li>
+   </ul>
+</div>
+<div id="oceania" class="tabcontent">
+  <h3 class="paises"><a href="oceania.html">Oceania</a></h3>
+  <ul>
+  		<li class="paises" ><a href="nuevaZelanda.html">Nueva Zelanda</a></li>
+  		<li class="paises"><a  href="australia.html">Australia</a></li>
+  	</ul>
+  </div>	
+</div>
+<footer class="page-footer font-small unique-color-dark pt-4">
+    <div id="contenedor_nosotros1" class="container-fluid">
+      <ul id="ul_nosotros" class="list-unstyled list-inline text-center py-2">
+        <li class="list-inline-item">
+          <h5 id="h5_nosotros" class="mb-1">Register for free</h5>
+        </li>
+        <li class="list-inline-item">
+          <a id="boton_nosotros" href="index2.html" class="btn btn-outline-white btn-rounded">Sign up!</a>
+        </li>
+      </ul>
+    </div>
+    <div id="contenedor_nosotros2" class="footer-copyright text-center py-3"><span class="spa">© 2020 Copyright:</span>
+      <a id="a_nosotros" href="https://guias.makeitreal.camp/http-y-sinatra/el-protocolo-http"> TravelParadise.com</a>
+      <p id="face_nosotros"><img src="fotos/facebook.png">></p>
+      <p id="insta_nosotros"><img src="fotos/instagram.png"></p>
+      <p id="twiter_nosotros"><img src="fotos/twiter.png"></p>
+    </div>
+  </footer>
+ <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script2.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

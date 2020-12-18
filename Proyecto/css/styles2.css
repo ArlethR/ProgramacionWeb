@@ -1,0 +1,708 @@
+.nosotros {
+	background-image: url("fotos2/fondo2.jpg");
+	background: url("fotos2/fondo2.jpg") no-repeat center fixed;
+	background-size: cover;
+
+	width:1349px;
+	height:695px;
+}
+
+#textoNosotros {
+	margin-top: 110px;
+	margin-left: -70px;
+	color: white;
+	font-family: "Segoe UI Black";
+}
+
+#face_nosotros,#insta_nosotros,#twiter_nosotros{
+	float: right;
+	margin-left: 5px;
+}
+
+
+.nosotrosTitulo{
+	font-size: 60px;
+}
+
+#presentacion_nosotros{
+	margin-top: 50px;
+	color: black;
+	font-family: "Arial"
+	font-size: 18px;
+}
+
+#subTit_nosotros{
+	margin-top: 120px;
+	font-size: 40px;
+	font-family: "Arial Black";
+	color: #0770e3;
+	text-align: center;
+}
+#contenedor_nosotros1{
+	background-color: #1c2431;
+	color: #f3f0fb;
+}
+
+#contenedor_nosotros2{
+	background-color: #151b27;
+}
+#a_nosotros{
+	font-family: "Broadway";
+	font-size: 25px;
+	color: #651717;
+}
+
+.spa{
+	font-family: "Elephant";
+	color: #564e5b;;
+}
+#h5_nosotros{
+	text-align: center;
+	color: #de8826;
+	font-size: 25px;
+}
+#boton_nosotros{
+	color: #f3f0fb;
+	border: solid #f3f0fb;;
+}
+#ul_nosotros, li {
+	padding: 0;
+	margin: 0;
+	list-style: none inside;
+}
+
+
+
+
+#Africa_h1{
+	font-size: 150px;
+	color: white;
+	text-align: center;
+	margin-top: 220px;
+	font-family: "Bauhaus 93";
+}
+#container_africa{
+	background-image: url("fotos2/africa.jpg");
+	background: url("fotos2/africa.jpg") no-repeat center fixed;
+	background-size: cover;
+
+	width:1349px;
+	height:695px;
+}
+.Africa_h2{
+	margin-top: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px; 
+	font-size: 20px;
+	background: #fe7e51;
+	font-family: "Arial Black";
+	color: black;
+	text-align: center;
+}
+
+#spa1A,#spa2A,#spa3A{
+	color: #634e4f;
+}
+
+.Africa_h2::first-letter{
+	font-size: 30px;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+}
+
+ul.sliderA li {
+	margin: 10px;
+	opacity: 1;
+	transition: opacity .5s;
+	float: left;
+	left: 0px;
+	top: 0px;
+	background:#fff;
+}
+ul.sliderA li:first-child {
+	opacity: 1;
+}
+ul.sliderA li:target {
+	opacity: 0;
+}
+#img1A{
+	width: 535px;
+	height: 500px;
+}
+#img2A{
+	width: 535px;
+	height: 500px;
+}
+nav {
+	top:315px;
+}
+#h4_africa{
+	text-align: center;
+	font-family: "Broadway";
+	font-size: 25px;
+}
+.menuAfrica{
+	text-align: center;
+	background-color: gray;
+		font-family: "Broadway";
+}
+#marruecos,#tanzania{
+	font-size: 25px;
+		color: #ffc431;
+}
+
+.menuAfrica li{
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 15px;
+}
+
+ul.sliderA{
+	text-align: center;
+}
+
+
+
+
+#Oceania_h1{
+	font-size: 150px;
+	color: white;
+	text-align: center;
+	margin-top: 220px;
+	font-family: "Bauhaus 93";
+}
+#container_oceania{
+	background-image: url("fotos2/oceania.jpg");
+	background: url("fotos2/oceania.jpg") no-repeat center fixed;
+	background-size: cover;
+
+	width:1349px;
+	height:695px;
+}
+.Oceania_h2{
+	margin-top: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px; 
+	font-size: 20px;
+	background: #04acb2;
+	font-family: "Arial Black";
+	color: black;
+	text-align: center;
+}
+
+#spa1,#spa2,#spa3{
+	color: green;
+}
+
+.Oceania_h2::first-letter{
+	font-size: 30px;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+}
+
+ul.slider li {
+	margin: 10px;
+	opacity: 1;
+	transition: opacity .5s;
+	float: left;
+	left: 0px;
+	top: 0px;
+	background:#fff;
+}
+ul.slider li:first-child {
+	opacity: 1;
+}
+ul.slider li:target {
+	opacity: 0;
+}
+#img1{
+	width: 535px;
+	height: 500px;
+}
+#img2{
+	width: 535px;
+	height: 500px;
+}
+nav {
+	top:315px;
+}
+#h4_oceania{
+	text-align: center;
+	font-family: "Broadway";
+	font-size: 25px;
+}
+.menu{
+	text-align: center;
+	background-color: gray;
+		font-family: "Broadway";
+}
+#austra,#nuevaZel{
+	font-size: 25px;
+		color: #d33e08;
+}
+
+.menu li{
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 15px;
+}
+
+ul.slider{
+	text-align: center;
+}
+
+
+
+#Asia_h1{
+	font-size: 150px;
+	color: white;
+	text-align: center;
+	margin-top: 220px;
+	font-family: "Bauhaus 93";
+}
+#container_asia{
+	background-image: url("fotos2/asiaa.jpg");
+	background: url("fotos2/asiaa.jpg") no-repeat center fixed;
+	background-size: cover;
+
+	width:1349px;
+	height:695px;
+}
+.Asia_h2{
+	margin-top: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px; 
+	font-size: 20px;
+	background: #99ce35;
+	font-family: "Arial Black";
+	color: black;
+	text-align: center;
+}
+
+#spa1As,#spa2As,#spa3As{
+	color: #cbebe5;
+}
+
+.Asia_h2::first-letter{
+	font-size: 30px;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+}
+
+ul.sliderAs li {
+	margin: 10px;
+	opacity: 1;
+	transition: opacity .5s;
+	float: left;
+	left: 0px;
+	top: 0px;
+	background:#fff;
+}
+ul.sliderAs li:first-child {
+	opacity: 1;
+}
+ul.sliderAs li:target {
+	opacity: 0;
+}
+#img1As{
+	width: 535px;
+	height: 500px;
+}
+#img2As{
+	width: 535px;
+	height: 500px;
+}
+nav {
+	top:315px;
+}
+#h4_asia{
+	text-align: center;
+	font-family: "Broadway";
+	font-size: 25px;
+}
+.menuAsia{
+	text-align: center;
+	background-color: gray;
+		font-family: "Broadway";
+}
+#japon,#dubai{
+	font-size: 25px;
+		color: #ff5a58;
+}
+
+.menuAsia li{
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 15px;
+}
+
+
+ul.sliderAs{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Registrarse*/
+#cont1, #ul1, #li1, #li2{
+	font-family: "Broadway";
+}
+#contenedori2{
+	background-color: white;
+	margin-top: 10px;
+}
+#h1_sub{
+	color: #FFFFFF;
+	text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd;
+	margin-bottom: 25px; 
+}
+#pi1,#pi2,#pi3,#pi4{
+	text-align: center;
+}
+label{
+	font-family: "Britannic Bold";
+	font-size: 22px;
+}
+#boton1,#boton2{
+	background-color: #1c2431;
+	color: #955f99;
+}
+#h5_sub{
+	text-align: center;
+	color: #de8826;
+	font-size: 25px;
+}
+
+#h1_sub,#h2_sub{
+	text-align: center;
+}
+
+#h2_sub{
+	color: rgba(34,254,202,0.5);
+}
+#contenedori2{
+	margin-top: 70px;
+	background-color: #1c2431;
+	color: #f3f0fb;
+	width: 400px;
+}
+#todo_sub{
+	background-color: red;
+}
+.body2{
+	background-image: url("../css/fotos2/fondo_subs.jpg");
+	background: url("../css/fotos2/fondo_subs.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+
+/*Tanzania*/
+#img_dubaiT{
+	margin-top: 20px;
+	//width: 550px;
+	//height: 600px;
+}
+
+#p_dubaiImgT{
+text-align: center;
+}
+
+#h1_dubaiT{
+	margin-bottom: 25px;
+	margin-top: 25px;
+	text-align: center;
+	font-size: 65px;
+	font-family: "Goudy Stout";
+	color: #9c0606;
+}
+
+#div_dubai_1T{
+		background-image: url("fotos2/tanzania01.jpg");
+	background: url("fotos2/tanzania01.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+#h2_dubaiT,#h2_dubai1T,#h2_dubai2T,#h2_dubai3T{
+	margin-top: 20px;
+	font-family: "Arial Black"
+}
+
+#p_dubai1T,#p_dubai2T,#p_dubai3T,#p_dubai4T,#p_dubai5T,#p_dubai6T,#p_dubai7T,#p_dubai8T,#p_dubai9T{
+	font-family: "Arial";
+}
+
+#li1DT,#li2DT,#li3DT,#li4DT,#li5DT,#li6DT{
+	list-style: circle;
+	font-family: "Arial";
+}
+
+#h3_dubai1T,#h3_dubai2T,#h3_dubai3T,#h3_dubai4T,#h3_dubai5T,#h3_dubai6T{
+	font-family: "Bahnschrift";
+	color: #ff5a58;
+}
+#lista_dubaiT{
+	margin-left: 10px;
+}
+
+/*Japon*/
+#img_dubaiJ{
+	margin-top: 20px;
+	//width: 550px;
+	//height: 580px;
+}
+
+#p_dubaiImgJ{
+text-align: center;
+}
+
+#h1_dubaiJ{
+	margin-bottom: 25px;
+	margin-top: 25px;
+	text-align: center;
+	font-size: 65px;
+	font-family: "Castellar";
+	color: #b146c2;
+}
+
+#div_dubai_1J{
+		background-image: url("fotos2/japon.jpg");
+	background: url("fotos2/japon.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+#h2_dubaiJ,#h2_dubai1J,#h2_dubai2J,#h2_dubai3J{
+	margin-top: 20px;
+	font-family: "Arial Black"
+}
+
+#p_dubai1J,#p_dubai2J,#p_dubai3J,#p_dubai4J,#p_dubai5J,#p_dubai6J,#p_dubai7J,#p_dubai8J,#p_dubai9J{
+	font-family: "Arial";
+}
+
+#li1DJ,#li2DJ,#li3DJ,#li4DJ,#li5DJ,#li6DJ{
+	list-style: circle;
+	font-family: "Arial";
+}
+
+#h3_dubai1J,#h3_dubai2J,#h3_dubai3J,#h3_dubai4J,#h3_dubai5J,#h3_dubai6J{
+	font-family: "Bahnschrift";
+	color: #ff5a58;
+}
+#lista_dubaiJ{
+	margin-left: 10px;
+}
+
+/*Marruecos*/
+#img_dubaiM{
+	margin-top: 20px;
+	//width: 550px;
+	//height: 650px;
+}
+
+#p_dubaiImgM{
+text-align: center;
+}
+
+#h1_dubaiM{
+	margin-bottom: 25px;
+	margin-top: 25px;
+	text-align: center;
+	font-size: 65px;
+	font-family: "Copperplate Gothic Bold";
+	color: white;
+}
+
+#div_dubai_1M{
+		background-image: url("fotos2/Marrueco.jpg");
+	background: url("fotos2/Marrueco.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+#h2_dubaiM,#h2_dubai1M,#h2_dubai2M,#h2_dubai3M{
+	margin-top: 20px;
+	font-family: "Arial Black"
+}
+
+#p_dubai1M,#p_dubai2M,#p_dubai3M,#p_dubai4M,#p_dubai5M,#p_dubai6M,#p_dubai7M,#p_dubai8M,#p_dubai9M{
+	font-family: "Arial";
+}
+
+#li1DM,#li2DM,#li3DM,#li4DM,#li5DM,#li6DM{
+	list-style: circle;
+	font-family: "Arial";
+}
+
+.h3,#h3_dubai1M,#h3_dubai2M,#h3_dubai3M,#h3_dubai4M,#h3_dubai5M,#h3_dubai6M{
+	font-family: "Bahnschrift";
+	color: #ff5a58;
+}
+#lista_dubaiM{
+	margin-left: 10px;
+}
+
+/*Nueva Zelanda*/
+#img_dubaiN{
+	margin-top: 20px;
+	//width: 550px;
+	//height: 650px;
+}
+
+#p_dubaiImgN{
+text-align: center;
+}
+
+#h1_dubaiN{
+	margin-bottom: 25px;
+	margin-top: 25px;
+	text-align: center;
+	font-size: 65px;
+	font-family: "Algerian";
+	color: green;
+}
+
+#div_dubai_1N{
+		background-image: url("fotos2/nuevaZell.jpg");
+	background: url("fotos2/nuevaZell.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+#h2_dubaiN,#h2_dubai1N,#h2_dubai2N,#h2_dubai3N{
+	margin-top: 20px;
+	font-family: "Arial Black"
+}
+
+#p_dubai1N,#p_dubai2N,#p_dubai3N,#p_dubai4N,#p_dubai5N,#p_dubai6N,#p_dubai7N,#p_dubai8N,#p_dubai9N{
+	font-family: "Arial";
+}
+
+#li1DN,#li2DN,#li3DN,#li4DN,#li5DN,#li6DN{
+	list-style: circle;
+	font-family: "Arial";
+}
+
+#h3_dubai1N,#h3_dubai2N,#h3_dubai3N,#h3_dubai4N,#h3_dubai5N,#h3_dubai6N{
+	font-family: "Bahnschrift";
+	color: #ff5a58;
+}
+#lista_dubaiN{
+	margin-left: 10px;
+}
+
+/*Australia*/
+#img_dubaiA{
+	margin-top: 20px;
+	//width: 550px;
+	//height: 500px;
+}
+
+#p_dubaiImgA{
+text-align: center;
+}
+
+#h1_dubaiA{
+	margin-bottom: 25px;
+	margin-top: 25px;
+	text-align: center;
+	font-size: 65px;
+	font-family: "Impact";
+	color: yellow;
+}
+
+#div_dubai_1A{
+		background-image: url("fotos2/normal.jpg");
+	background: url("fotos2/normal.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+#h2_dubaiA,#h2_dubai1A,#h2_dubai2A,#h2_dubai3A{
+	margin-top: 20px;
+	font-family: "Arial Black"
+}
+
+#p_dubai1A,#p_dubai2A,#p_dubai3A,#p_dubai4A,#p_dubai5A,#p_dubai6A,#p_dubai7A,#p_dubai8A,#p_dubai9A{
+	font-family: "Arial";
+}
+
+#li1DA,#li2DA,#li3DA,#li4DA,#li5DA,#li6DA{
+	list-style: circle;
+	font-family: "Arial";
+}
+
+#h3_dubai1A,#h3_dubai2A,#h3_dubai3A,#h3_dubai4A,#h3_dubai5A,#h3_dubai6A{
+	font-family: "Bahnschrift";
+	color: #ff5a58;
+}
+#lista_dubaiA{
+	margin-left: 10px;
+}
+
+
+
+/*Dubai*/
+#img_dubai{
+	margin-top: 20px;
+	//width: 550px;
+	//height: 500px;
+}
+
+#p_dubaiImg{
+text-align: center;
+}
+#h1_francia{
+		margin-bottom: 25px;
+	margin-top: 25px;
+	text-align: center;
+	font-size: 65px;
+	font-family: "Forte";
+	color: blue;
+}
+#h1_dubai{
+	margin-bottom: 25px;
+	margin-top: 25px;
+	text-align: center;
+	font-size: 65px;
+	font-family: "Forte";
+	color: #ede8a2;
+}
+
+#div_dubai_1{
+		background-image: url("fotos2/dubai.jpg");
+	background: url("fotos2/dubai.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+#h2_dubai,#h2_dubai1,#h2_dubai2,#h2_dubai3{
+	margin-top: 20px;
+	font-family: "Arial Black"
+}
+
+#p_dubai1,#p_dubai2,#p_dubai3,#p_dubai4,#p_dubai5,#p_dubai6,#p_dubai7,#p_dubai8,#p_dubai9{
+	font-family: "Arial";
+}
+
+#li1D,#li2D,#li3D,#li4D,#li5D,#li6D{
+	list-style: circle;
+	font-family: "Arial";
+}
+
+#h3_dubai1,#h3_dubai2,#h3_dubai3,#h3_dubai4,#h3_dubai5,#h3_dubai6{
+	font-family: "Bahnschrift";
+	color: #ff5a58;
+}
+#lista_dubai{
+	margin-left: 10px;
+}

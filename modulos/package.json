@@ -1,0 +1,12 @@
+{
+  "name": "modulos",
+  "version": "1.0.0",
+  "description": "Ejemplo del usos de modulos de node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "Arleth",
+  "license": "ISC"
+}

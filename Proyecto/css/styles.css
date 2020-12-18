@@ -1,0 +1,183 @@
+
+nav.black{
+	background: #000;
+}
+.princ{
+	//background-color: black;
+	background-image: url(../img/logo11.png);
+	background-size: cover;
+}
+.colombia{
+	background-image: url(../colombia/fondo.jpg);
+	background-size: cover;
+	text-align: center;
+	}
+	.francia{
+		background-image: url(../francia/fondo.jpg);
+	background-size: cover;
+	}
+	.italia{
+	background-image: url(../italia/fondo.jpg);
+	background-size: cover;
+
+	}
+  .into{color: #fff;
+}
+.CC{
+background-image: url(../colombia/curiosidad.jpg);
+	background-size: cover;	
+	text-align: center;
+}
+.CF{
+	background-image: url(../francia/curiosidad.jpg);
+	background-size: cover;	
+	text-align: center;
+}
+.CI{
+	background-image: url(../italia/curiosidad.jpg);
+	background-size: cover;
+	text-align: center;	
+}
+.gc{
+	background-image: url(../colombia/gastronomia.png);
+	background-size: cover;	
+	text-align: center;
+}
+.gf{
+	background-image: url(../francia/gastronomia.jpg);
+	background-size: cover;
+	text-align: center;
+}
+.gi{
+	background-image: url(../italia/gastronomia.jpg);
+	background-size: cover;
+	text-align: center;
+}
+#btn1:hover{
+	background-color:hsl(26, 100%, 50%);
+  color: white;
+}
+#btn1{
+  background-color: transparent;
+  color:white;
+  border: 2px solid yellow;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  
+}
+.row1{
+	background-image: url("../destinos.jpg");
+	background-size: cover;
+	color: white;
+	height: 480px;
+	 width: 100%;
+	 margin-left: 5px;
+
+
+ }
+ .row2{
+ 	background-image: url("../consejo.jpg");
+ 	background-size: cover;
+	color: white;
+	height: 480px;
+	 width: 100%;
+	 margin-left: 5px;
+	 margin-top: 30px;
+ }
+ .row3{
+	 margin-top: 30px;
+
+ }
+
+.mySlides {display:none;}
+
+#btnM,#btnN{
+	background: black;
+}
+#btnM{
+	display: right;
+
+}
+#btnN{
+	display: left;
+}
+
+.logo{
+width:30px;
+height:30px;
+display: inline-block;
+
+}
+.categorias{
+	margin-top: 13rem;
+	margin-bottom: 18rem;
+padding-top: 25px;
+padding-bottom: 25px;
+width: auto;
+    background-color: white;
+    opacity: 50%;
+    color: black;
+    text-align: center;
+    	
+}
+
+
+.ima{
+	width: 100%;
+}
+/*-------------------------Destinos-------------------*/
+.destinos{
+	background-image: url(../destinos.jpg);
+	background-size: cover;
+}
+.titD{
+	font-size: 150px;
+	color: white;
+	//text-align: center;
+	margin-top: 9rem;
+	font-family: "Bauhaus 93";
+
+}
+.paises{
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+}
+
+/* Set height of body and the document to 100% */
+.fondoD {
+  font-family: Arial;
+  background-color: black;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Europa {background-color: red;}
+#Asia {background-color: green;}
+#Africa {background-color: blue;}
+#America {background-color: orange;}
+#oceania{background-color: yellow;}
